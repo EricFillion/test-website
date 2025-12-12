@@ -1,0 +1,32 @@
+site_name: Test Website
+theme:
+  name: material
+  features:
+    - content.code.copy
+
+extra_css:
+  - stylesheets/custom.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: false
+      anchor_linenums: false
+      pygments_lang_class: true
+  - pymdownx.superfences
+
+nav:
+  - Page 0: index.md
+  - Page 1: page_1.md
+  - Drop Down 2 levels:
+    - Section 1:
+        - Page 2: section_1/page_2.md
+        - Page 3: section_1/page_3.md
+    - Section 2:
+        - Page 4: section_2/page_4.md
+  - Drop down 1 level:
+      - Page 5: page_5.md
+
+
+
+
+
